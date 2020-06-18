@@ -1,7 +1,6 @@
 import React from 'react';
 
 import links from './content';
-
 import getThemeColor from '../../utils/getThemeColor';
 
 import * as S from './styled';

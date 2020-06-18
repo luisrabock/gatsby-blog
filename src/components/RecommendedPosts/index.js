@@ -1,7 +1,7 @@
 import React from 'react';
 import propTypes from 'prop-types';
-import * as S from './styled';
 
+import * as S from './styled';
 import getThemeColor from '../../utils/getThemeColor';
 
 const RecommendedPosts = ({ next, previous }) => (
