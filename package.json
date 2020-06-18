@@ -11,7 +11,7 @@
     "gatsby-image": "^2.4.7",
     "gatsby-plugin-algolia-search": "^0.5.7",
     "gatsby-plugin-manifest": "^2.4.11",
-    "gatsby-plugin-offline": "^3.2.9",
+    "gatsby-plugin-offline": "^3.2.10",
     "gatsby-plugin-react-helmet": "^3.3.4",
     "gatsby-plugin-sharp": "^2.6.11",
     "gatsby-plugin-sitemap": "^2.4.5",
@@ -51,10 +51,8 @@
   ],
   "husky": {
     "hooks": {
-        "pre-commit": "yarn test",
-        "pre-push": "yarn test",
-        "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-        "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
     }
   },
   "license": "MIT",
