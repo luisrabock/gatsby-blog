@@ -14,7 +14,9 @@
     "gatsby-plugin-offline": "^3.2.9",
     "gatsby-plugin-react-helmet": "^3.3.4",
     "gatsby-plugin-sharp": "^2.6.11",
+    "gatsby-plugin-sitemap": "^2.4.5",
     "gatsby-plugin-styled-components": "^3.3.4",
+    "gatsby-plugin-transition-link": "^1.18.0",
     "gatsby-remark-images": "^3.3.10",
     "gatsby-remark-lazy-load": "^1.0.2",
     "gatsby-remark-prismjs": "^3.5.4",
@@ -22,6 +24,7 @@
     "gatsby-source-filesystem": "^2.3.11",
     "gatsby-transformer-remark": "^2.8.16",
     "gatsby-transformer-sharp": "^2.5.5",
+    "gsap": "^3.3.3",
     "lazysizes": "^5.2.2",
     "prismjs": "^1.20.0",
     "prop-types": "^15.7.2",
@@ -35,12 +38,25 @@
     "styled-media-query": "^2.1.2"
   },
   "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "commitizen": "^4.1.2",
     "cross-env": "^7.0.2",
+    "cz-conventional-changelog": "3.2.0",
+    "husky": "^4.2.5",
     "prettier": "2.0.5"
   },
   "keywords": [
     "gatsby"
   ],
+  "husky": {
+    "hooks": {
+        "pre-commit": "yarn test",
+        "pre-push": "yarn test",
+        "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+        "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+    }
+  },
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -58,5 +74,10 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
