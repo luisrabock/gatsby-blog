@@ -4,11 +4,11 @@ const queries = require('./src/utils/algolia_queries');
 
 module.exports = {
   siteMetadata: {
-    title: `John Doe`,
-    position: `Backend Developer`,
-    description: `A blog about backend development and other cool stuff.`,
-    author: `@myblog`,
-    siteUrl: `https://johndoe.com.br`,
+    title: `Luis Rabock`,
+    position: `Full Stack Developer`,
+    description: `Um blog sobre desenvolvimento WEB e outras coisas interessantes.`,
+    author: `@Luis Rabock`,
+    siteUrl: `https://luisrabock.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
@@ -87,5 +87,6 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
+    `gatsby-plugin-netlify-cms`,
   ],
 };
