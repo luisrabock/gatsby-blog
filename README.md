@@ -1,99 +1,80 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+  
+
+<br/>
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
+    Gatsby-Blog 📌
 </p>
-<h1 align="center">
-  Gatsby's default starter
-</h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+<br/>
+<p align="center">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/luisrabock/gatsby-blog?style=flat-square">
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/luisrabock/gatsby-blog?style=flat-square">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/luisrabock/gatsby-blog?color=blue&style=flat-square">
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/luisrabock/gatsby-blog?style=flat-square">
+<img alt="GitHub" src="https://img.shields.io/github/license/luisrabock/gatsby-blog?color=blue&style=flat-square">
+<img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/luisrabock/gatsby-blog?color=red&style=flat-square">
+</p>
+<br/>
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
-## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+  
+ 
+ 
+  
+Gatsby-Blog is a simple blog that you can change between dark and light themes, write posts, comments and change views between list and table.
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+The core of the project was made with react, graphql, gatsby and netlify CMS ❤️
 
-    ```shell
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
-    ```
 
-1.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+## 🚀&nbsp; Installation and Documentation
 
-    ```shell
-    cd my-default-starter/
-    gatsby develop
-    ```
+You need to install  [Node.js](https://nodejs.org/en/download/)  and  [Npm]([https://www.npmjs.com/](https://www.npmjs.com/))  first.
 
-1.  **Open the source code and start editing!**
+Clone repo: [https://github.com/luisrabock/gatsby-blog](https://github.com/luisrabock/gatsby-blog)
 
-    Your site is now running at `http://localhost:8000`!
+You need global install [Gatsby](https://www.gatsbyjs.org/) :
+```
+yarn global add gatsby
+```
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+🧪 **Development environment**:
 
-## 🧐 What's inside?
+In the root folder you need install the dependencies:
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+```yarn install```
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+Start server:
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+```yarn develop```
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+Youd need   four environment variables:
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+```GATSBY_ALGOLIA_APP_ID```
+``GATSBY_ALGOLIA_SEARCH_KEY``
+``ALGOLIA_ADMIN_KEY``
+``ALGOLIA_ADMIN_KEY``
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+Check: [https://www.algolia.com/](https://www.algolia.com/) to set this out.
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+Now application is running!!
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+## ❤️&nbsp; Community and Contributions
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+Whether you are helping fixing bugs, proposing new feature, improving the app . **I love to have you as part of the project**.
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
 
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
+## 📫&nbsp; Have a question? Want to chat? Ran into a problem?
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+  
+Glad to help you. My e-mail account is the best form of contact: **luis@rocketlab.com.br** .
 
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-12. **`README.md`**: A text file containing useful reference information about your project.
+## 🤝&nbsp; Found a bug? Missing a specific feature?
 
-## 🎓 Learning Gatsby
+Feel free to **file a new issue** with a respective title and description on the the [Gatsby-blog](https://github.com/luisrabock/gatsby-blog/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**!
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-default)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+## 📘&nbsp; License
+Gatsby-blog content management system is released under the under terms of the [MIT License](LICENSE).
