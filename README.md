@@ -24,7 +24,7 @@
   
 Gatsby-Blog is a simple blog that you can change between dark and light themes, write posts, comments and change views between list and table.
 
-The core of the project was made with react, graphql, gatsby and netlify CMS ❤️
+The core of the project was made with react, graphql, algolia, gatsby and netlify CMS ❤️
 
 
 
