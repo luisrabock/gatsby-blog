@@ -1,5 +1,3 @@
-const handle = 'johndoe';
-
 const links = [
   {
     label: 'Github',
