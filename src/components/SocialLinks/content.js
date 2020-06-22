@@ -3,23 +3,19 @@ const handle = 'johndoe';
 const links = [
   {
     label: 'Github',
-    url: `https://github.com/${handle}`,
+    url: `https://github.com/luisrabock`,
   },
   {
-    label: 'Twitter',
-    url: `https://twitter.com/${handle}`,
+    label: 'Linkedin',
+    url: `https://www.linkedin.com/in/luis-rabock-555b3b147`,
   },
   {
-    label: 'Youtube',
-    url: `https://www.youtube.com/${handle}`,
+    label: 'Facebook',
+    url: `https://www.facebook.com/luis.rabock`,
   },
   {
     label: 'Instagram',
-    url: `https://www.instagram.com/${handle}`,
-  },
-  {
-    label: 'Unsplash',
-    url: `https://unsplash.com/${handle}`,
+    url: `https://www.instagram.com/luizion_/`,
   },
 ];
 

@@ -65,15 +65,11 @@ const MenuBar = () => {
           <Light />
         </S.MenuBarItem>
         <S.MenuBarItem
-          title="Mudar visualização"
           onClick={() => {
-            window.__setPreferredDisplay(isListMode ? 'grid' : 'list');
+            window.scroll({ top: 0, left: 0, behavior: 'smooth' });
           }}
-          className="display"
+          title="Ir para o Topo"
         >
-          {isListMode ? <Grid /> : <List />}
-        </S.MenuBarItem>
-        <S.MenuBarItem title="Ir para o Topo">
           <Arrow />
         </S.MenuBarItem>
       </S.MenuBarGroup>
