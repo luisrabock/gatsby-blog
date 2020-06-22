@@ -1,5 +1,5 @@
 ---
-title: 'Variaveis de ambiente '
+title: '.ENV e React Native '
 description: Uma forma fácil de setar variáveis de ambiente em modo de desenvolvimento.
 date: 2020-06-22 08:27:06
 image: assets/img/1_xdi2cseawxu95iekandfuq.png
