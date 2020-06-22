@@ -4,7 +4,7 @@ description: Uma forma fácil de setar variáveis de ambiente em modo de desenvo
 date: 2020-06-22 08:27:06
 image: assets/img/1_xdi2cseawxu95iekandfuq.png
 category: react
-background: '#B31917'
+background: '#61DBFB'
 ---
 
 Quando você está trabalhando em um projeto e está usando SECRET KEY, API KEYS, informações de banco, a melhor forma é não expor esses dados em algum repositório publico e para não ficar controlando manualmente, existem algumas ferramentas que podem te ajudar. Uma dessas ferramentas é o react-native-dotenv, digamos que você quer montar uma requisição para uma API:
